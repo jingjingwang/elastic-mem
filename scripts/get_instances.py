@@ -9,8 +9,8 @@ import sys
 from thread import start_new_thread, allocate_lock
 
 KEYNAME = 'jwang'
-AWS_ACCESS_KEY='AKIAJBCFOTGQANAC2SVQ'
-AWS_SECRET_KEY='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'
+AWS_ACCESS_KEY=''
+AWS_SECRET_KEY=''
 LOCAL_SSH_AUTH_KEYS = '/home/jwang/.ssh/authorized_keys'
 TPCH_QUERIES = '/home/jwang/project/tpch-dbgen'
 FILES_TO_COPY = ['scheduler.py', 'jvm.py', 'myria_utils.py', 'qplan.py', 'models', 'get_instances.py', 'train.py', 'gendata.py', 'ingest_tpch.py']
